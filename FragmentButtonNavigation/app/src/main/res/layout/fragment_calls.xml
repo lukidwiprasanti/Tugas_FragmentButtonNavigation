@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".CallsFragment">
+    <!--RelativeLayout merupakan turunan dari ViewGroup, setiap komponen atau elemen UI didalam layout tersebut akan tersusun secara Relatif terhadap elemen UI atau container lain.-->
+    <!--background="@android:color/holo_blue_dark memberikan warna biru muda-->
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Calls Fragment"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <!--TextView adalah elemen yang berfungsi untuk menampilkan output berupa text.-->
+    <!--text size digunakan untuk menentukan ukuran huruf/text-->
+    <!--layout_centerInParent digunakan untuk meletakkan huruf/font berada di tengah relatif terhadap lebar dan tinggi Layout.-->
+    <!--textColor="@color/white digunakan untuk memberikan warna pada text dengan warna putih-->
+    <!--text="Calls Fragment dihunakan untuk membuat tulisan atau font yang akan ditampilkan-->
+
+
+</RelativeLayout>

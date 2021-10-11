@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chats"/>
+    <!--id="@+id/nav_chats memberikan penamaan id pada elemen agar berbeda-->
+    <!--icon="@drawable/ic_baseline_chats_24 digunakan untuk memberi icon yang disediakan pada drawable yang terletak di vector asset-->
+    <!--title="Chats digunakan untuk memberikan penamaan-->
+
+    <item
+        android:id="@+id/nav_status"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="Status"/>
+    <!--id="@+id/nav_status memberikan penamaan id pada elemen agar berbeda-->
+    <!--icon="@drawable/ic_baseline_history_24 digunakan untuk memberi icon yang disediakan pada drawable yang terletak di vector asset-->
+    <!--title="Status digunakan untuk memberikan penamaan-->
+    <item
+        android:id="@+id/nav_calls"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Calls"/>
+    <!--id="@+id/nav_calls memberikan penamaan id pada elemen agar berbeda-->
+    <!--icon="@drawable/ic_baseline_calls_24 digunakan untuk memberi icon yang disediakan pada drawable yang terletak di vector asset-->
+    <!--title="Calls digunakan untuk memberikan penamaan-->
+
+</menu>
